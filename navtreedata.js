@@ -28,6 +28,13 @@ var NAVTREE =
     [ "Main Page", "index.html", [
       [ "SprintC", "index.html#autotoc_md0", null ]
     ] ],
+    [ "Structures de données", "annotated.html", [
+      [ "Structures de données", "annotated.html", "annotated_dup" ],
+      [ "Champs de donnée", "functions.html", [
+        [ "Tout", "functions.html", null ],
+        [ "Variables", "functions_vars.html", null ]
+      ] ]
+    ] ],
     [ "Fichiers", "files.html", [
       [ "Liste des fichiers", "files.html", "files_dup" ],
       [ "Variables globale", "globals.html", [
@@ -45,7 +52,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"files.html"
+"annotated.html"
 ];
 
 var SYNCONMSG = 'cliquez pour désactiver la synchronisation du panel';

@@ -1,0 +1,1217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Sprint C: Référence du fichier source.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Sprint C
+   </div>
+   <div id="projectbrief">Projet d&#39;IAP en langage C.</div>
+  </td>
+   <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.svg"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.20 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('sprint2_2source_8c.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Structures de données</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Définitions de type</a> &#124;
+<a href="#enum-members">Énumérations</a> &#124;
+<a href="#func-members">Fonctions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du fichier sprint2/source.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Le sprint 2 du projet.  
+<a href="#details">Plus de détails...</a></p>
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Structures de données</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_specialite.html">Specialite</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure représentant une spécialité.  <a href="struct_specialite.html#details">Plus de détails...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_specialites.html">Specialites</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure représentant toutes les specialites.  <a href="struct_specialites.html#details">Plus de détails...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_travailleur.html">Travailleur</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure représentant un travailleur.  <a href="struct_travailleur.html#details">Plus de détails...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_travailleurs.html">Travailleurs</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure représentant tous les travailleurs.  <a href="struct_travailleurs.html#details">Plus de détails...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_clients.html">Clients</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure représentant un client.  <a href="struct_clients.html#details">Plus de détails...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a87ecbe5ade53bc7b222dbd0687cef7aa"><td class="memItemLeft" align="right" valign="top"><a id="a87ecbe5ade53bc7b222dbd0687cef7aa"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a87ecbe5ade53bc7b222dbd0687cef7aa">MSG_COMMANDE</a>&#160;&#160;&#160;&quot;## nouvelle commande \&quot;%s\&quot;, par client \&quot;%s\&quot;\n&quot;</td></tr>
+<tr class="memdesc:a87ecbe5ade53bc7b222dbd0687cef7aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sortie de l'instruction commande. <br /></td></tr>
+<tr class="separator:a87ecbe5ade53bc7b222dbd0687cef7aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b132affb50ef0416ab7bfd890e33ce4"><td class="memItemLeft" align="right" valign="top"><a id="a1b132affb50ef0416ab7bfd890e33ce4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a1b132affb50ef0416ab7bfd890e33ce4">MSG_TACHE</a>&#160;&#160;&#160;&quot;## la commande \&quot;%s\&quot; requiere la specialite \&quot;%s\&quot; (nombre d'heures \&quot;%d\&quot;)\n&quot;</td></tr>
+<tr class="memdesc:a1b132affb50ef0416ab7bfd890e33ce4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sortie de l'instruction tache. <br /></td></tr>
+<tr class="separator:a1b132affb50ef0416ab7bfd890e33ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a530d80f62801a03bb158d27bfa0872a8"><td class="memItemLeft" align="right" valign="top"><a id="a530d80f62801a03bb158d27bfa0872a8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a530d80f62801a03bb158d27bfa0872a8">MSG_PROGRESSION</a>&#160;&#160;&#160;&quot;## pour la commande \&quot;%s\&quot;, pour la specialite \&quot;%s\&quot; : \&quot;%d\&quot; heures de plus ont ete realisees\n&quot;</td></tr>
+<tr class="memdesc:a530d80f62801a03bb158d27bfa0872a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sortie de l'instruction progression. <br /></td></tr>
+<tr class="separator:a530d80f62801a03bb158d27bfa0872a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f1285d5bcfccbd5294a9dd79ea336c2"><td class="memItemLeft" align="right" valign="top"><a id="a3f1285d5bcfccbd5294a9dd79ea336c2"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a3f1285d5bcfccbd5294a9dd79ea336c2">MSG_PASSE</a>&#160;&#160;&#160;&quot;## une reallocation est requise\n&quot;</td></tr>
+<tr class="memdesc:a3f1285d5bcfccbd5294a9dd79ea336c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sortie de l'instruction passe. <br /></td></tr>
+<tr class="separator:a3f1285d5bcfccbd5294a9dd79ea336c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1316d57600e8237c16c2574a331c5d8a"><td class="memItemLeft" align="right" valign="top"><a id="a1316d57600e8237c16c2574a331c5d8a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a1316d57600e8237c16c2574a331c5d8a">MSG_SPECIALITES</a>&#160;&#160;&#160;&quot;specialites traitees : &quot;</td></tr>
+<tr class="memdesc:a1316d57600e8237c16c2574a331c5d8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sortie de l'instruction specialites. <br /></td></tr>
+<tr class="separator:a1316d57600e8237c16c2574a331c5d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae82eeacd13d29b1b0d6e04688cad60ca"><td class="memItemLeft" align="right" valign="top"><a id="ae82eeacd13d29b1b0d6e04688cad60ca"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#ae82eeacd13d29b1b0d6e04688cad60ca">MSG_TRAVAILLEURS</a>&#160;&#160;&#160;&quot;la specialite %s peut etre prise en charge par : &quot;</td></tr>
+<tr class="memdesc:ae82eeacd13d29b1b0d6e04688cad60ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sortie de l'instruction travailleurs. <br /></td></tr>
+<tr class="separator:ae82eeacd13d29b1b0d6e04688cad60ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40d76ced55c767cfe5654bfe866ff0de"><td class="memItemLeft" align="right" valign="top"><a id="a40d76ced55c767cfe5654bfe866ff0de"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a40d76ced55c767cfe5654bfe866ff0de">MSG_CLIENT</a>&#160;&#160;&#160;&quot;le client %s a commande : &quot;</td></tr>
+<tr class="memdesc:a40d76ced55c767cfe5654bfe866ff0de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sortie de l'instruction client. <br /></td></tr>
+<tr class="separator:a40d76ced55c767cfe5654bfe866ff0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81844bb7538e692547f22c80a1bd2d5e"><td class="memItemLeft" align="right" valign="top"><a id="a81844bb7538e692547f22c80a1bd2d5e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a81844bb7538e692547f22c80a1bd2d5e">MSG_CLIENT_TOUS</a>&#160;&#160;&#160;&quot;le client %s a commande : &quot;</td></tr>
+<tr class="memdesc:a81844bb7538e692547f22c80a1bd2d5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sortie de l'instruction client version tous. <br /></td></tr>
+<tr class="separator:a81844bb7538e692547f22c80a1bd2d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac89530cfac6aea14f554db22f317550b"><td class="memItemLeft" align="right" valign="top"><a id="ac89530cfac6aea14f554db22f317550b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#ac89530cfac6aea14f554db22f317550b">MSG_SUPERVISION</a>&#160;&#160;&#160;&quot;## consultation de l'avancement des commandes\n&quot;</td></tr>
+<tr class="memdesc:ac89530cfac6aea14f554db22f317550b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sortie de l'instruction superivision. <br /></td></tr>
+<tr class="separator:ac89530cfac6aea14f554db22f317550b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae820b30c75453da57fd1cbf35a98e917"><td class="memItemLeft" align="right" valign="top"><a id="ae820b30c75453da57fd1cbf35a98e917"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#ae820b30c75453da57fd1cbf35a98e917">MSG_CHARGE</a>&#160;&#160;&#160;&quot;## consultation de la charge de travail de \&quot;%s\&quot;\n&quot;</td></tr>
+<tr class="memdesc:ae820b30c75453da57fd1cbf35a98e917"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sortie de l'instruction charge. <br /></td></tr>
+<tr class="separator:ae820b30c75453da57fd1cbf35a98e917"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af96fb2885eb567b1d4e18bf153c70666"><td class="memItemLeft" align="right" valign="top"><a id="af96fb2885eb567b1d4e18bf153c70666"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#af96fb2885eb567b1d4e18bf153c70666">MSG_INTERRUPTION</a>&#160;&#160;&#160;&quot;## fin de programme\n&quot;</td></tr>
+<tr class="memdesc:af96fb2885eb567b1d4e18bf153c70666"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sortie de l'instruction interruption. <br /></td></tr>
+<tr class="separator:af96fb2885eb567b1d4e18bf153c70666"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49abdf2729844bf713b51215f8d06873"><td class="memItemLeft" align="right" valign="top"><a id="a49abdf2729844bf713b51215f8d06873"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a49abdf2729844bf713b51215f8d06873">LGMOT</a>&#160;&#160;&#160;35</td></tr>
+<tr class="memdesc:a49abdf2729844bf713b51215f8d06873"><td class="mdescLeft">&#160;</td><td class="mdescRight">La taille maximale d'un mot. <br /></td></tr>
+<tr class="separator:a49abdf2729844bf713b51215f8d06873"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb3bf7cb68f1f9cb159689d7f53434a0"><td class="memItemLeft" align="right" valign="top"><a id="aeb3bf7cb68f1f9cb159689d7f53434a0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#aeb3bf7cb68f1f9cb159689d7f53434a0">NBCHIFFREMAX</a>&#160;&#160;&#160;5</td></tr>
+<tr class="memdesc:aeb3bf7cb68f1f9cb159689d7f53434a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">La taille maximale d'un chiffre. <br /></td></tr>
+<tr class="separator:aeb3bf7cb68f1f9cb159689d7f53434a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a724d9c55ed0b06d25c3a79b082c34841"><td class="memItemLeft" align="right" valign="top"><a id="a724d9c55ed0b06d25c3a79b082c34841"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a724d9c55ed0b06d25c3a79b082c34841">MAX_SPECIALITES</a>&#160;&#160;&#160;10</td></tr>
+<tr class="memdesc:a724d9c55ed0b06d25c3a79b082c34841"><td class="mdescLeft">&#160;</td><td class="mdescRight">La taille maximale de spécialités. <br /></td></tr>
+<tr class="separator:a724d9c55ed0b06d25c3a79b082c34841"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4e80656d46dbe73a1db677102626b33"><td class="memItemLeft" align="right" valign="top"><a id="ac4e80656d46dbe73a1db677102626b33"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#ac4e80656d46dbe73a1db677102626b33">MAX_TRAVAILLEURS</a>&#160;&#160;&#160;50</td></tr>
+<tr class="memdesc:ac4e80656d46dbe73a1db677102626b33"><td class="mdescLeft">&#160;</td><td class="mdescRight">La taille maximale de travailleurs. <br /></td></tr>
+<tr class="separator:ac4e80656d46dbe73a1db677102626b33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a8f91f93d75a07f0ae45077db45b3eb"><td class="memItemLeft" align="right" valign="top"><a id="a0a8f91f93d75a07f0ae45077db45b3eb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a0a8f91f93d75a07f0ae45077db45b3eb">MAX_CLIENTS</a>&#160;&#160;&#160;100</td></tr>
+<tr class="memdesc:a0a8f91f93d75a07f0ae45077db45b3eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">La taille maximale de clients. <br /></td></tr>
+<tr class="separator:a0a8f91f93d75a07f0ae45077db45b3eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Définitions de type</h2></td></tr>
+<tr class="memitem:af8be197325db4cbd1381f62c48451313"><td class="memItemLeft" align="right" valign="top"><a id="af8be197325db4cbd1381f62c48451313"></a>
+typedef char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#af8be197325db4cbd1381f62c48451313">Mot</a>[<a class="el" href="sprint2_2source_8c.html#a49abdf2729844bf713b51215f8d06873">LGMOT</a>+1]</td></tr>
+<tr class="memdesc:af8be197325db4cbd1381f62c48451313"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contient les entrées de l'utilisateur. <br /></td></tr>
+<tr class="separator:af8be197325db4cbd1381f62c48451313"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Énumérations</h2></td></tr>
+<tr class="memitem:a426c0d223e7dc6b87d723c4c0c0e1f58"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a426c0d223e7dc6b87d723c4c0c0e1f58">Booleen</a> { <br />
+&#160;&#160;<a class="el" href="sprint0_2source_8c.html#a426c0d223e7dc6b87d723c4c0c0e1f58a1bb75a30f93b418be2d44aa0eafe9be3">FAUX</a> = 0, 
+<a class="el" href="sprint0_2source_8c.html#a426c0d223e7dc6b87d723c4c0c0e1f58a763723ffe7a348ad0f5c1b58a331b523">VRAI</a> = 1, 
+<a class="el" href="sprint1_2source_8c.html#a426c0d223e7dc6b87d723c4c0c0e1f58a1bb75a30f93b418be2d44aa0eafe9be3">FAUX</a> = 0, 
+<a class="el" href="sprint1_2source_8c.html#a426c0d223e7dc6b87d723c4c0c0e1f58a763723ffe7a348ad0f5c1b58a331b523">VRAI</a> = 1, 
+<br />
+&#160;&#160;<a class="el" href="sprint2_2source_8c.html#a426c0d223e7dc6b87d723c4c0c0e1f58a1bb75a30f93b418be2d44aa0eafe9be3">FAUX</a> = 0, 
+<a class="el" href="sprint2_2source_8c.html#a426c0d223e7dc6b87d723c4c0c0e1f58a763723ffe7a348ad0f5c1b58a331b523">VRAI</a> = 1, 
+<b>FAUX</b> = 0, 
+<b>VRAI</b> = 1
+<br />
+ }</td></tr>
+<tr class="memdesc:a426c0d223e7dc6b87d723c4c0c0e1f58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type pour les booléens.  <a href="sprint2_2source_8c.html#a426c0d223e7dc6b87d723c4c0c0e1f58">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a426c0d223e7dc6b87d723c4c0c0e1f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:a7cf052952ea673234ecfaefb0bee8e8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a7cf052952ea673234ecfaefb0bee8e8b">get_id</a> (<a class="el" href="sprint2_2source_8c.html#af8be197325db4cbd1381f62c48451313">Mot</a> id)</td></tr>
+<tr class="memdesc:a7cf052952ea673234ecfaefb0bee8e8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupérer les entrées de l'utilisateur.  <a href="sprint2_2source_8c.html#a7cf052952ea673234ecfaefb0bee8e8b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a7cf052952ea673234ecfaefb0bee8e8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a292781868f4c4b971b71dbf1122c507d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a292781868f4c4b971b71dbf1122c507d">get_int</a> ()</td></tr>
+<tr class="memdesc:a292781868f4c4b971b71dbf1122c507d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupérer l'entrée puis le convertir en un entier.  <a href="sprint2_2source_8c.html#a292781868f4c4b971b71dbf1122c507d">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a292781868f4c4b971b71dbf1122c507d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1f214c8f89f8e41687cd93f82dbbda9"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#ac1f214c8f89f8e41687cd93f82dbbda9">get_indice</a> (const <a class="el" href="struct_specialites.html">Specialites</a> *specialites, const <a class="el" href="sprint2_2source_8c.html#af8be197325db4cbd1381f62c48451313">Mot</a> *nom_specialite)</td></tr>
+<tr class="memdesc:ac1f214c8f89f8e41687cd93f82dbbda9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupérer l'indice d'une spécialité dans le tableau contenant les spécialités.  <a href="sprint2_2source_8c.html#ac1f214c8f89f8e41687cd93f82dbbda9">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac1f214c8f89f8e41687cd93f82dbbda9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9409cec76160cad06ce68631cd683ac7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a9409cec76160cad06ce68631cd683ac7">get_travailleurs</a> (const <a class="el" href="struct_specialites.html">Specialites</a> *specialites, const <a class="el" href="struct_travailleurs.html">Travailleurs</a> *travailleurs, unsigned int indice, <a class="el" href="struct_travailleurs.html">Travailleurs</a> *specialistes)</td></tr>
+<tr class="memdesc:a9409cec76160cad06ce68631cd683ac7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupérer les travailleurs d'une spécialité en particulier.  <a href="sprint2_2source_8c.html#a9409cec76160cad06ce68631cd683ac7">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9409cec76160cad06ce68631cd683ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7768888cbe3ea40d26ad7c6d34b8da94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a7768888cbe3ea40d26ad7c6d34b8da94">print_travailleurs</a> (const <a class="el" href="struct_travailleurs.html">Travailleurs</a> *travailleurs, const <a class="el" href="sprint2_2source_8c.html#af8be197325db4cbd1381f62c48451313">Mot</a> *nom_specialite)</td></tr>
+<tr class="memdesc:a7768888cbe3ea40d26ad7c6d34b8da94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Afficher tous les travailleurs contenu dans un tableau.  <a href="sprint2_2source_8c.html#a7768888cbe3ea40d26ad7c6d34b8da94">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a7768888cbe3ea40d26ad7c6d34b8da94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabc024b95306b362da8228e270e0539e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#aabc024b95306b362da8228e270e0539e">traite_developpe</a> (<a class="el" href="struct_specialites.html">Specialites</a> *specialites)</td></tr>
+<tr class="memdesc:aabc024b95306b362da8228e270e0539e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Traite l'instruction developpe.  <a href="sprint2_2source_8c.html#aabc024b95306b362da8228e270e0539e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aabc024b95306b362da8228e270e0539e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaddca6ec1e8ccca8e684ab25f6590342"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#aaddca6ec1e8ccca8e684ab25f6590342">traite_embauche</a> (const <a class="el" href="struct_specialites.html">Specialites</a> *specialites, <a class="el" href="struct_travailleurs.html">Travailleurs</a> *travailleurs)</td></tr>
+<tr class="memdesc:aaddca6ec1e8ccca8e684ab25f6590342"><td class="mdescLeft">&#160;</td><td class="mdescRight">Traite l'instruction embauche.  <a href="sprint2_2source_8c.html#aaddca6ec1e8ccca8e684ab25f6590342">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aaddca6ec1e8ccca8e684ab25f6590342"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c54f6e57506ee38abe9848c9ecc9866"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a9c54f6e57506ee38abe9848c9ecc9866">traite_demarche</a> (<a class="el" href="struct_clients.html">Clients</a> *clients)</td></tr>
+<tr class="memdesc:a9c54f6e57506ee38abe9848c9ecc9866"><td class="mdescLeft">&#160;</td><td class="mdescRight">Traite l'instruction demarche.  <a href="sprint2_2source_8c.html#a9c54f6e57506ee38abe9848c9ecc9866">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9c54f6e57506ee38abe9848c9ecc9866"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5de58af62798bbdf05aa6398f96467d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a5de58af62798bbdf05aa6398f96467d6">traite_progression</a> ()</td></tr>
+<tr class="memdesc:a5de58af62798bbdf05aa6398f96467d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Traite l'instruction progression.  <a href="sprint2_2source_8c.html#a5de58af62798bbdf05aa6398f96467d6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a5de58af62798bbdf05aa6398f96467d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a8c59dc869c40ec68c9e08f465fd876"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a2a8c59dc869c40ec68c9e08f465fd876">traite_passe</a> ()</td></tr>
+<tr class="memdesc:a2a8c59dc869c40ec68c9e08f465fd876"><td class="mdescLeft">&#160;</td><td class="mdescRight">Traite l'instruction passe.  <a href="sprint2_2source_8c.html#a2a8c59dc869c40ec68c9e08f465fd876">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a2a8c59dc869c40ec68c9e08f465fd876"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9043ae8b79affe934dd09e80b73f764"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#ae9043ae8b79affe934dd09e80b73f764">traite_commande</a> ()</td></tr>
+<tr class="memdesc:ae9043ae8b79affe934dd09e80b73f764"><td class="mdescLeft">&#160;</td><td class="mdescRight">Traite l'instruction commande.  <a href="sprint2_2source_8c.html#ae9043ae8b79affe934dd09e80b73f764">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae9043ae8b79affe934dd09e80b73f764"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00878a6e62a5121b3b90c4144d7fbd8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a00878a6e62a5121b3b90c4144d7fbd8f">traite_tache</a> ()</td></tr>
+<tr class="memdesc:a00878a6e62a5121b3b90c4144d7fbd8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Traite l'instruction tache.  <a href="sprint2_2source_8c.html#a00878a6e62a5121b3b90c4144d7fbd8f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a00878a6e62a5121b3b90c4144d7fbd8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50e4e344d3ab62fdf8afc923b75a1305"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a50e4e344d3ab62fdf8afc923b75a1305">traite_specialites</a> (const <a class="el" href="struct_specialites.html">Specialites</a> *specialites)</td></tr>
+<tr class="memdesc:a50e4e344d3ab62fdf8afc923b75a1305"><td class="mdescLeft">&#160;</td><td class="mdescRight">Traite l'instruction spécialites.  <a href="sprint2_2source_8c.html#a50e4e344d3ab62fdf8afc923b75a1305">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a50e4e344d3ab62fdf8afc923b75a1305"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb3690e3edcb8ebde7eb9de10ab32043"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#abb3690e3edcb8ebde7eb9de10ab32043">traite_travailleurs</a> (const <a class="el" href="struct_specialites.html">Specialites</a> *specialites, const <a class="el" href="struct_travailleurs.html">Travailleurs</a> *travailleurs)</td></tr>
+<tr class="memdesc:abb3690e3edcb8ebde7eb9de10ab32043"><td class="mdescLeft">&#160;</td><td class="mdescRight">Traite l'instruction travailleurs.  <a href="sprint2_2source_8c.html#abb3690e3edcb8ebde7eb9de10ab32043">Plus de détails...</a><br /></td></tr>
+<tr class="separator:abb3690e3edcb8ebde7eb9de10ab32043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee937785b308081c406a0578b5001147"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#aee937785b308081c406a0578b5001147">traite_client</a> (const <a class="el" href="struct_clients.html">Clients</a> *clients)</td></tr>
+<tr class="memdesc:aee937785b308081c406a0578b5001147"><td class="mdescLeft">&#160;</td><td class="mdescRight">Traite l'instruction client.  <a href="sprint2_2source_8c.html#aee937785b308081c406a0578b5001147">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aee937785b308081c406a0578b5001147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6936fc65394c020e3903f8658666125d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a6936fc65394c020e3903f8658666125d">traite_supervision</a> ()</td></tr>
+<tr class="memdesc:a6936fc65394c020e3903f8658666125d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Traite l'instruction supervision.  <a href="sprint2_2source_8c.html#a6936fc65394c020e3903f8658666125d">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6936fc65394c020e3903f8658666125d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65f45347fca7699f78f247022eb62618"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a65f45347fca7699f78f247022eb62618">traite_charge</a> ()</td></tr>
+<tr class="memdesc:a65f45347fca7699f78f247022eb62618"><td class="mdescLeft">&#160;</td><td class="mdescRight">Traite l'instruction charge.  <a href="sprint2_2source_8c.html#a65f45347fca7699f78f247022eb62618">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a65f45347fca7699f78f247022eb62618"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dfc4ed3e6be488749daed9f6e9f8926"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a2dfc4ed3e6be488749daed9f6e9f8926">traite_interruption</a> ()</td></tr>
+<tr class="memdesc:a2dfc4ed3e6be488749daed9f6e9f8926"><td class="mdescLeft">&#160;</td><td class="mdescRight">Traite l'instruction interruption.  <a href="sprint2_2source_8c.html#a2dfc4ed3e6be488749daed9f6e9f8926">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a2dfc4ed3e6be488749daed9f6e9f8926"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
+<tr class="memdesc:a0ddf1224851353fc92bfbff6f499fa97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boucle principale.  <a href="sprint2_2source_8c.html#a0ddf1224851353fc92bfbff6f499fa97">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a9d2cde40957e22754ed67a5e9cdcc8ee"><td class="memItemLeft" align="right" valign="top"><a id="a9d2cde40957e22754ed67a5e9cdcc8ee"></a>
+<a class="el" href="sprint0_2source_8c.html#a426c0d223e7dc6b87d723c4c0c0e1f58">Booleen</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sprint2_2source_8c.html#a9d2cde40957e22754ed67a5e9cdcc8ee">EchoActif</a> = <a class="el" href="sprint2_2source_8c.html#a426c0d223e7dc6b87d723c4c0c0e1f58a1bb75a30f93b418be2d44aa0eafe9be3">FAUX</a></td></tr>
+<tr class="memdesc:a9d2cde40957e22754ed67a5e9cdcc8ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Si vrai, l'echo est actif. <br /></td></tr>
+<tr class="separator:a9d2cde40957e22754ed67a5e9cdcc8ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>Le sprint 2 du projet. </p>
+<p>Le but de ce sprint est de garder en mémoire les informations des différents entités et d'afficher leurs informations via les instructions. </p>
+</div><h2 class="groupheader">Documentation du type de l'énumération</h2>
+<a id="a426c0d223e7dc6b87d723c4c0c0e1f58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a426c0d223e7dc6b87d723c4c0c0e1f58">&#9670;&nbsp;</a></span>Booleen</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="sprint0_2source_8c.html#a426c0d223e7dc6b87d723c4c0c0e1f58">Booleen</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type pour les booléens. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Valeurs énumérées</th></tr><tr><td class="fieldname"><a id="a426c0d223e7dc6b87d723c4c0c0e1f58a1bb75a30f93b418be2d44aa0eafe9be3"></a>FAUX&#160;</td><td class="fielddoc"><p>Valeur fausse. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a426c0d223e7dc6b87d723c4c0c0e1f58a763723ffe7a348ad0f5c1b58a331b523"></a>VRAI&#160;</td><td class="fielddoc"><p>Valeur vraie. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a426c0d223e7dc6b87d723c4c0c0e1f58a1bb75a30f93b418be2d44aa0eafe9be3"></a>FAUX&#160;</td><td class="fielddoc"><p>Valeur fausse. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a426c0d223e7dc6b87d723c4c0c0e1f58a763723ffe7a348ad0f5c1b58a331b523"></a>VRAI&#160;</td><td class="fielddoc"><p>Valeur vraie. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a426c0d223e7dc6b87d723c4c0c0e1f58a1bb75a30f93b418be2d44aa0eafe9be3"></a>FAUX&#160;</td><td class="fielddoc"><p>Valeur fausse. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a426c0d223e7dc6b87d723c4c0c0e1f58a763723ffe7a348ad0f5c1b58a331b523"></a>VRAI&#160;</td><td class="fielddoc"><p>Valeur vraie. </p>
+</td></tr>
+</table>
+<div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="sprint2_2source_8c.html#a426c0d223e7dc6b87d723c4c0c0e1f58a1bb75a30f93b418be2d44aa0eafe9be3">FAUX</a> = 0, </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="sprint2_2source_8c.html#a426c0d223e7dc6b87d723c4c0c0e1f58a763723ffe7a348ad0f5c1b58a331b523">VRAI</a> = 1  </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;} <a class="code" href="sprint2_2source_8c.html#a426c0d223e7dc6b87d723c4c0c0e1f58">Booleen</a>;</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a id="a7cf052952ea673234ecfaefb0bee8e8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cf052952ea673234ecfaefb0bee8e8b">&#9670;&nbsp;</a></span>get_id()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void get_id </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="sprint2_2source_8c.html#af8be197325db4cbd1381f62c48451313">Mot</a>&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Récupérer les entrées de l'utilisateur. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Le mot entrée </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;{</div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;    scanf(<span class="stringliteral">&quot;%s&quot;</span>, <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160; </div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="sprint2_2source_8c.html#a9d2cde40957e22754ed67a5e9cdcc8ee">EchoActif</a>)</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;    {</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;        printf(<span class="stringliteral">&quot;&gt;&gt;echo %s\n&quot;</span>, <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;    }</div>
+<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac1f214c8f89f8e41687cd93f82dbbda9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1f214c8f89f8e41687cd93f82dbbda9">&#9670;&nbsp;</a></span>get_indice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int get_indice </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_specialites.html">Specialites</a> *&#160;</td>
+          <td class="paramname"><em>specialites</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="sprint2_2source_8c.html#af8be197325db4cbd1381f62c48451313">Mot</a> *&#160;</td>
+          <td class="paramname"><em>nom_specialite</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Récupérer l'indice d'une spécialité dans le tableau contenant les spécialités. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">specialites</td><td>Pointeur sur un tableau contenant toutes les spécialités. </td></tr>
+    <tr><td class="paramname">Pointeur</td><td>sur le nom de la spécialité pour lequel on veut récuperer l'indice. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;{</div>
+<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> indice;</div>
+<div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;    <span class="keywordflow">for</span> (indice = 0; indice &lt; specialites-&gt;<a class="code" href="struct_specialites.html#a63455ee245a5976aa1412d897c7bc2c5">nb_specialites</a>; ++indice)</div>
+<div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;    {</div>
+<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;        <span class="keywordflow">if</span> (strcmp(specialites-&gt;<a class="code" href="struct_specialites.html#a65488e9ff8cd2b63971b3cb37ffe9fb2">tab_specialites</a>[indice].<a class="code" href="struct_specialite.html#af188cb867a2e2798ce79f074aec0828a">nom</a>, *nom_specialite) == 0)</div>
+<div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;        {</div>
+<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;        }</div>
+<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;    }</div>
+<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160; </div>
+<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;    <span class="keywordflow">return</span> indice;</div>
+<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a292781868f4c4b971b71dbf1122c507d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a292781868f4c4b971b71dbf1122c507d">&#9670;&nbsp;</a></span>get_int()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int get_int </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Récupérer l'entrée puis le convertir en un entier. </p>
+<dl class="section return"><dt>Renvoie</dt><dd>L'entier récupéré </dd></dl>
+<div class="fragment"><div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;{</div>
+<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;    <span class="keywordtype">char</span> buffer[<a class="code" href="sprint2_2source_8c.html#aeb3bf7cb68f1f9cb159689d7f53434a0">NBCHIFFREMAX</a> + 1];</div>
+<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;    scanf(<span class="stringliteral">&quot;%s&quot;</span>, buffer);</div>
+<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160; </div>
+<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="sprint2_2source_8c.html#a9d2cde40957e22754ed67a5e9cdcc8ee">EchoActif</a>)</div>
+<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;    {</div>
+<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;        printf(<span class="stringliteral">&quot;&gt;&gt;echo %s\n&quot;</span>, buffer);</div>
+<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;    }</div>
+<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160; </div>
+<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;    <span class="keywordflow">return</span> atoi(buffer);</div>
+<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9409cec76160cad06ce68631cd683ac7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9409cec76160cad06ce68631cd683ac7">&#9670;&nbsp;</a></span>get_travailleurs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void get_travailleurs </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_specialites.html">Specialites</a> *&#160;</td>
+          <td class="paramname"><em>specialites</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_travailleurs.html">Travailleurs</a> *&#160;</td>
+          <td class="paramname"><em>travailleurs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>indice</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_travailleurs.html">Travailleurs</a> *&#160;</td>
+          <td class="paramname"><em>specialistes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Récupérer les travailleurs d'une spécialité en particulier. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">specialites</td><td>Pointeur sur un tableau contenant toutes les spécialités. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">travailleurs</td><td>Pointeur sur un tableau contenant tous les travailleurs. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">indice</td><td>L'indice de la spécialité pour laquelle on veut récuperer les travailleurs. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">specialistes</td><td>Pointeur sur un tableau à remplir avec les travailleurs appartenant à la spécialité indiquée. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;{</div>
+<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;    specialistes-&gt;<a class="code" href="struct_travailleurs.html#ab92b0b3c894b8899b01765cd58dae5ba">nb_travailleurs</a> = 0;</div>
+<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160; </div>
+<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 0; i &lt; travailleurs-&gt;<a class="code" href="struct_travailleurs.html#ab92b0b3c894b8899b01765cd58dae5ba">nb_travailleurs</a>; ++i)</div>
+<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;    {</div>
+<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;        <span class="keywordflow">if</span> (travailleurs-&gt;<a class="code" href="struct_travailleurs.html#a78031783d99daeabeec73c4f1f36a248">tab_travailleurs</a>[i].<a class="code" href="struct_travailleur.html#a7e785917694a2fb37b99c41255904a8e">tags_competences</a>[indice] == <a class="code" href="sprint2_2source_8c.html#a426c0d223e7dc6b87d723c4c0c0e1f58a763723ffe7a348ad0f5c1b58a331b523">VRAI</a>)</div>
+<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;        {</div>
+<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;            <a class="code" href="struct_travailleur.html">Travailleur</a> specialiste;</div>
+<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;            strncpy(specialiste.<a class="code" href="struct_travailleur.html#af188cb867a2e2798ce79f074aec0828a">nom</a>, travailleurs-&gt;<a class="code" href="struct_travailleurs.html#a78031783d99daeabeec73c4f1f36a248">tab_travailleurs</a>[i].<a class="code" href="struct_travailleur.html#af188cb867a2e2798ce79f074aec0828a">nom</a>, <a class="code" href="sprint2_2source_8c.html#a49abdf2729844bf713b51215f8d06873">LGMOT</a>);</div>
+<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;            specialiste.<a class="code" href="struct_travailleur.html#a7e785917694a2fb37b99c41255904a8e">tags_competences</a>[indice] = <a class="code" href="sprint2_2source_8c.html#a426c0d223e7dc6b87d723c4c0c0e1f58a763723ffe7a348ad0f5c1b58a331b523">VRAI</a>;</div>
+<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160; </div>
+<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;            specialistes-&gt;<a class="code" href="struct_travailleurs.html#a78031783d99daeabeec73c4f1f36a248">tab_travailleurs</a>[specialistes-&gt;<a class="code" href="struct_travailleurs.html#ab92b0b3c894b8899b01765cd58dae5ba">nb_travailleurs</a>++] = specialiste;</div>
+<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;        }</div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;    }</div>
+<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a0ddf1224851353fc92bfbff6f499fa97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ddf1224851353fc92bfbff6f499fa97">&#9670;&nbsp;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>argv</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Boucle principale. </p>
+<p>Gère les instructions entrées par l'utilisateur.</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">argc</td><td>Nombre d'arguments </td></tr>
+    <tr><td class="paramname">argv</td><td>Arguments: "echo" permet un retour à l'écran de ce qu'on écrit via scanf</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Etat du programme </dd></dl>
+<div class="fragment"><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;{</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <span class="keywordflow">if</span> (argc &gt;= 2 &amp;&amp; strcmp(<span class="stringliteral">&quot;echo&quot;</span>, argv[1]) == 0)</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    {</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        <a class="code" href="sprint2_2source_8c.html#a9d2cde40957e22754ed67a5e9cdcc8ee">EchoActif</a> = <a class="code" href="sprint2_2source_8c.html#a426c0d223e7dc6b87d723c4c0c0e1f58a763723ffe7a348ad0f5c1b58a331b523">VRAI</a>;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    }</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160; </div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    <a class="code" href="struct_specialites.html">Specialites</a> specialites;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    specialites.<a class="code" href="struct_specialites.html#a63455ee245a5976aa1412d897c7bc2c5">nb_specialites</a> = 0;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160; </div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <a class="code" href="struct_travailleurs.html">Travailleurs</a> travailleurs;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    travailleurs.<a class="code" href="struct_travailleurs.html#ab92b0b3c894b8899b01765cd58dae5ba">nb_travailleurs</a> = 0;</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160; </div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <a class="code" href="struct_clients.html">Clients</a> clients;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    clients.<a class="code" href="struct_clients.html#ab1dea18338d437a3a56a48e94a6cd365">nb_clients</a> = 0;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; </div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <a class="code" href="sprint2_2source_8c.html#af8be197325db4cbd1381f62c48451313">Mot</a> buffer; <span class="comment">// Les instructions principales</span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="sprint2_2source_8c.html#a426c0d223e7dc6b87d723c4c0c0e1f58a763723ffe7a348ad0f5c1b58a331b523">VRAI</a>)</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    {</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        <a class="code" href="sprint2_2source_8c.html#a7cf052952ea673234ecfaefb0bee8e8b">get_id</a>(buffer);</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <span class="keywordflow">if</span> (strcmp(buffer, <span class="stringliteral">&quot;developpe&quot;</span>) == 0) <span class="comment">// strcmp() compare deux chaines; égaux si 0</span></div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        {</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;            <a class="code" href="sprint2_2source_8c.html#aabc024b95306b362da8228e270e0539e">traite_developpe</a>(&amp;specialites);</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        }</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(buffer, <span class="stringliteral">&quot;embauche&quot;</span>) == 0)</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        {</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;            <a class="code" href="sprint2_2source_8c.html#aaddca6ec1e8ccca8e684ab25f6590342">traite_embauche</a>(&amp;specialites, &amp;travailleurs);</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        }</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(buffer, <span class="stringliteral">&quot;demarche&quot;</span>) == 0)</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        {</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;            <a class="code" href="sprint2_2source_8c.html#a9c54f6e57506ee38abe9848c9ecc9866">traite_demarche</a>(&amp;clients);</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        }</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(buffer, <span class="stringliteral">&quot;commande&quot;</span>) == 0)</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        {</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;            <a class="code" href="sprint2_2source_8c.html#ae9043ae8b79affe934dd09e80b73f764">traite_commande</a>(&amp;clients);</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        }</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(buffer, <span class="stringliteral">&quot;tache&quot;</span>) == 0)</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        {</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;            <a class="code" href="sprint2_2source_8c.html#a00878a6e62a5121b3b90c4144d7fbd8f">traite_tache</a>();</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        }</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(buffer, <span class="stringliteral">&quot;progression&quot;</span>) == 0)</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        {</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            <a class="code" href="sprint2_2source_8c.html#a5de58af62798bbdf05aa6398f96467d6">traite_progression</a>();</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        }</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(buffer, <span class="stringliteral">&quot;passe&quot;</span>) == 0)</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        {</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;            <a class="code" href="sprint2_2source_8c.html#a2a8c59dc869c40ec68c9e08f465fd876">traite_passe</a>();</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        }</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(buffer, <span class="stringliteral">&quot;specialites&quot;</span>) == 0)</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        {</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;            <a class="code" href="sprint2_2source_8c.html#a50e4e344d3ab62fdf8afc923b75a1305">traite_specialites</a>(&amp;specialites);</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        }</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(buffer, <span class="stringliteral">&quot;travailleurs&quot;</span>) == 0)</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        {</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;            <a class="code" href="sprint2_2source_8c.html#abb3690e3edcb8ebde7eb9de10ab32043">traite_travailleurs</a>(&amp;specialites, &amp;travailleurs);</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        }</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(buffer, <span class="stringliteral">&quot;client&quot;</span>) == 0)</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        {</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            <a class="code" href="sprint2_2source_8c.html#aee937785b308081c406a0578b5001147">traite_client</a>(&amp;clients);</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        }</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(buffer, <span class="stringliteral">&quot;supervision&quot;</span>) == 0)</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            <a class="code" href="sprint2_2source_8c.html#a6936fc65394c020e3903f8658666125d">traite_supervision</a>();</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        }</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(buffer, <span class="stringliteral">&quot;charge&quot;</span>) == 0)</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        {</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;            <a class="code" href="sprint2_2source_8c.html#a65f45347fca7699f78f247022eb62618">traite_charge</a>();</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        }</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(buffer, <span class="stringliteral">&quot;interruption&quot;</span>) == 0)</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        {</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;            <a class="code" href="sprint2_2source_8c.html#a2dfc4ed3e6be488749daed9f6e9f8926">traite_interruption</a>();</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        }</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160; </div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        printf(<span class="stringliteral">&quot;!!! instruction inconnue &gt;%s&lt; !!!\n&quot;</span>, buffer);</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    }</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160; </div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    system(<span class="stringliteral">&quot;pause&quot;</span>);</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a7768888cbe3ea40d26ad7c6d34b8da94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7768888cbe3ea40d26ad7c6d34b8da94">&#9670;&nbsp;</a></span>print_travailleurs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void print_travailleurs </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_travailleurs.html">Travailleurs</a> *&#160;</td>
+          <td class="paramname"><em>travailleurs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="sprint2_2source_8c.html#af8be197325db4cbd1381f62c48451313">Mot</a> *&#160;</td>
+          <td class="paramname"><em>nom_specialite</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Afficher tous les travailleurs contenu dans un tableau. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">travailleurs</td><td>Pointeur sur un tableau contenant des travailleurs. </td></tr>
+    <tr><td class="paramname">nom_specialite</td><td>Nom de la spécialité à laquelle appartiennent les travailleurs. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;{</div>
+<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;    printf(<a class="code" href="sprint2_2source_8c.html#ae82eeacd13d29b1b0d6e04688cad60ca">MSG_TRAVAILLEURS</a>, *nom_specialite);</div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160; </div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 0; i &lt; travailleurs-&gt;<a class="code" href="struct_travailleurs.html#ab92b0b3c894b8899b01765cd58dae5ba">nb_travailleurs</a>; ++i)</div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;    {</div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;        printf(<span class="stringliteral">&quot;%s&quot;</span>, travailleurs-&gt;<a class="code" href="struct_travailleurs.html#a78031783d99daeabeec73c4f1f36a248">tab_travailleurs</a>[i].<a class="code" href="struct_travailleur.html#af188cb867a2e2798ce79f074aec0828a">nom</a>);</div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160; </div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;        <span class="keywordflow">if</span> (i &lt; travailleurs-&gt;nb_travailleurs - 1)</div>
+<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;        {</div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;            printf(<span class="stringliteral">&quot;, &quot;</span>);</div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;        }</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;    }</div>
+<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160; </div>
+<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;    printf(<span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a65f45347fca7699f78f247022eb62618"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65f45347fca7699f78f247022eb62618">&#9670;&nbsp;</a></span>traite_charge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void traite_charge </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Traite l'instruction charge. </p>
+<p>Récupère le nom du travailleur pour lequel on veut afficher sa charge de travail.</p>
+<p>Affiche la charge de travail d'un travailleur donné. </p>
+<div class="fragment"><div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;{</div>
+<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;    <a class="code" href="sprint2_2source_8c.html#af8be197325db4cbd1381f62c48451313">Mot</a> nom_travailleur;</div>
+<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;    <a class="code" href="sprint2_2source_8c.html#a7cf052952ea673234ecfaefb0bee8e8b">get_id</a>(nom_travailleur);</div>
+<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160; </div>
+<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;    printf(<a class="code" href="sprint2_2source_8c.html#ae820b30c75453da57fd1cbf35a98e917">MSG_CHARGE</a>, nom_travailleur);</div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aee937785b308081c406a0578b5001147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee937785b308081c406a0578b5001147">&#9670;&nbsp;</a></span>traite_client()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void traite_client </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_clients.html">Clients</a> *&#160;</td>
+          <td class="paramname"><em>clients</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Traite l'instruction client. </p>
+<p>Récupère le nom du client pour lequel afficher ses commandes, ou "tous" pour tous les clients.</p>
+<p>Affiche la liste de toutes les commandes effectuées par tous les clients ou pour un client en particulier.</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">clients</td><td>Pointeur sur un tableau contenant tous les clients. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;{</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;    <a class="code" href="sprint2_2source_8c.html#af8be197325db4cbd1381f62c48451313">Mot</a> nom_client;</div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;    <a class="code" href="sprint2_2source_8c.html#a7cf052952ea673234ecfaefb0bee8e8b">get_id</a>(nom_client);</div>
+<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160; </div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;    <span class="keywordflow">if</span> (strcmp(nom_client, <span class="stringliteral">&quot;tous&quot;</span>) == 0) <span class="comment">// Pour tous les clients</span></div>
+<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;    {</div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 0; i &lt; clients-&gt;<a class="code" href="struct_clients.html#ab1dea18338d437a3a56a48e94a6cd365">nb_clients</a>; ++i)</div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;        {</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;            printf(<a class="code" href="sprint2_2source_8c.html#a81844bb7538e692547f22c80a1bd2d5e">MSG_CLIENT_TOUS</a>, clients-&gt;<a class="code" href="struct_clients.html#a0295cd08b1355acf83b57ea510e8f844">tab_clients</a>[i]);</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;            printf(<span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;        }</div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;    }</div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;    {</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 0; i &lt; clients-&gt;<a class="code" href="struct_clients.html#ab1dea18338d437a3a56a48e94a6cd365">nb_clients</a>; ++i)</div>
+<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;        {</div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;            <span class="keywordflow">if</span> (strcmp(nom_client, clients-&gt;<a class="code" href="struct_clients.html#a0295cd08b1355acf83b57ea510e8f844">tab_clients</a>[i]) == 0)</div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;            {</div>
+<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;                printf(<a class="code" href="sprint2_2source_8c.html#a40d76ced55c767cfe5654bfe866ff0de">MSG_CLIENT</a>, nom_client);</div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;                printf(<span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;            }</div>
+<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160; </div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;        }</div>
+<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;    }</div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae9043ae8b79affe934dd09e80b73f764"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9043ae8b79affe934dd09e80b73f764">&#9670;&nbsp;</a></span>traite_commande()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void traite_commande </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Traite l'instruction commande. </p>
+<p>Récupère le nom de la commande et le client.</p>
+<p>Affiche le nom du client et le nom de la à effectuer. </p>
+<div class="fragment"><div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;{</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    <a class="code" href="sprint2_2source_8c.html#af8be197325db4cbd1381f62c48451313">Mot</a> nom_commande, nom_client;</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160; </div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    <a class="code" href="sprint2_2source_8c.html#a7cf052952ea673234ecfaefb0bee8e8b">get_id</a>(nom_commande);</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    <a class="code" href="sprint2_2source_8c.html#a7cf052952ea673234ecfaefb0bee8e8b">get_id</a>(nom_client);</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160; </div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    printf(<a class="code" href="sprint2_2source_8c.html#a87ecbe5ade53bc7b222dbd0687cef7aa">MSG_COMMANDE</a>, nom_commande, nom_client);</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9c54f6e57506ee38abe9848c9ecc9866"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c54f6e57506ee38abe9848c9ecc9866">&#9670;&nbsp;</a></span>traite_demarche()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void traite_demarche </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_clients.html">Clients</a> *&#160;</td>
+          <td class="paramname"><em>clients</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Traite l'instruction demarche. </p>
+<p>Récupère le nom du client entré.</p>
+<p>Garde en mémoire le nouveau client dans un tableau.</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">clients</td><td>Pointeur sur le tableau contenenant tous les clients. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;{</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <a class="code" href="sprint2_2source_8c.html#af8be197325db4cbd1381f62c48451313">Mot</a> nom_client;</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <a class="code" href="sprint2_2source_8c.html#a7cf052952ea673234ecfaefb0bee8e8b">get_id</a>(nom_client);</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160; </div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    strncpy(clients-&gt;<a class="code" href="struct_clients.html#a0295cd08b1355acf83b57ea510e8f844">tab_clients</a>[clients-&gt;<a class="code" href="struct_clients.html#ab1dea18338d437a3a56a48e94a6cd365">nb_clients</a>++], nom_client, <a class="code" href="sprint2_2source_8c.html#a49abdf2729844bf713b51215f8d06873">LGMOT</a>);</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aabc024b95306b362da8228e270e0539e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabc024b95306b362da8228e270e0539e">&#9670;&nbsp;</a></span>traite_developpe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void traite_developpe </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_specialites.html">Specialites</a> *&#160;</td>
+          <td class="paramname"><em>specialites</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Traite l'instruction developpe. </p>
+<p>Récupère le nom de la spécialité et son coût horaire.</p>
+<p>Garde en mémoire la nouvelle spécialité dans un tableau.</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">specialites</td><td>Pointeur sur le tableau contenant toutes les spécialités. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;{</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <a class="code" href="sprint2_2source_8c.html#af8be197325db4cbd1381f62c48451313">Mot</a> nom_specialite;</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    <a class="code" href="sprint2_2source_8c.html#a7cf052952ea673234ecfaefb0bee8e8b">get_id</a>(nom_specialite);</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160; </div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    <span class="keywordtype">int</span> cout_horaire = <a class="code" href="sprint2_2source_8c.html#a292781868f4c4b971b71dbf1122c507d">get_int</a>();</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160; </div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <a class="code" href="struct_specialite.html">Specialite</a> specialite;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    strncpy(specialite.<a class="code" href="struct_specialite.html#af188cb867a2e2798ce79f074aec0828a">nom</a>, nom_specialite, <a class="code" href="sprint2_2source_8c.html#a49abdf2729844bf713b51215f8d06873">LGMOT</a>);</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    specialite.<a class="code" href="struct_specialite.html#ac8c16e586fade9fec4386e9c802bedf1">cout_horaire</a> = cout_horaire;</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160; </div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    specialites-&gt;<a class="code" href="struct_specialites.html#a65488e9ff8cd2b63971b3cb37ffe9fb2">tab_specialites</a>[specialites-&gt;<a class="code" href="struct_specialites.html#a63455ee245a5976aa1412d897c7bc2c5">nb_specialites</a>++] = specialite;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aaddca6ec1e8ccca8e684ab25f6590342"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaddca6ec1e8ccca8e684ab25f6590342">&#9670;&nbsp;</a></span>traite_embauche()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void traite_embauche </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_specialites.html">Specialites</a> *&#160;</td>
+          <td class="paramname"><em>specialites</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_travailleurs.html">Travailleurs</a> *&#160;</td>
+          <td class="paramname"><em>travailleurs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Traite l'instruction embauche. </p>
+<p>Récupère le nom du travailleur ainsi que la specialite dans laquelle il va exercer.</p>
+<p>Garde en mémoire le nouveau travailleur dans un tableau.</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">specialites</td><td>Pointeur sur le tableau contenant toutes les spécialités. </td></tr>
+    <tr><td class="paramname">travailleurs</td><td>Pointeur sur le tableau contenant tous les travailleurs. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;{</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    <a class="code" href="sprint2_2source_8c.html#af8be197325db4cbd1381f62c48451313">Mot</a> nom_specialite, nom_travailleur;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160; </div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <a class="code" href="sprint2_2source_8c.html#a7cf052952ea673234ecfaefb0bee8e8b">get_id</a>(nom_travailleur);</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <a class="code" href="sprint2_2source_8c.html#a7cf052952ea673234ecfaefb0bee8e8b">get_id</a>(nom_specialite);</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160; </div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    <a class="code" href="struct_travailleur.html">Travailleur</a> travailleur;</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    strncpy(travailleur.<a class="code" href="struct_travailleur.html#af188cb867a2e2798ce79f074aec0828a">nom</a>, nom_travailleur, <a class="code" href="sprint2_2source_8c.html#a49abdf2729844bf713b51215f8d06873">LGMOT</a>);</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    travailleur.<a class="code" href="struct_travailleur.html#a7e785917694a2fb37b99c41255904a8e">tags_competences</a>[<a class="code" href="sprint2_2source_8c.html#ac1f214c8f89f8e41687cd93f82dbbda9">get_indice</a>(specialites, &amp;nom_specialite)] = <a class="code" href="sprint2_2source_8c.html#a426c0d223e7dc6b87d723c4c0c0e1f58a763723ffe7a348ad0f5c1b58a331b523">VRAI</a>;</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160; </div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    travailleurs-&gt;<a class="code" href="struct_travailleurs.html#a78031783d99daeabeec73c4f1f36a248">tab_travailleurs</a>[travailleurs-&gt;<a class="code" href="struct_travailleurs.html#ab92b0b3c894b8899b01765cd58dae5ba">nb_travailleurs</a>++] = travailleur;</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a2dfc4ed3e6be488749daed9f6e9f8926"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dfc4ed3e6be488749daed9f6e9f8926">&#9670;&nbsp;</a></span>traite_interruption()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void traite_interruption </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Traite l'instruction interruption. </p>
+<p>Met fin au programme. </p>
+<div class="fragment"><div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;{</div>
+<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;    printf(<a class="code" href="sprint2_2source_8c.html#af96fb2885eb567b1d4e18bf153c70666">MSG_INTERRUPTION</a>);</div>
+<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a2a8c59dc869c40ec68c9e08f465fd876"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a8c59dc869c40ec68c9e08f465fd876">&#9670;&nbsp;</a></span>traite_passe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void traite_passe </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Traite l'instruction passe. </p>
+<p>Réaffecte la tâche. </p>
+<div class="fragment"><div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;{</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;    printf(<a class="code" href="sprint2_2source_8c.html#a3f1285d5bcfccbd5294a9dd79ea336c2">MSG_PASSE</a>);</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5de58af62798bbdf05aa6398f96467d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5de58af62798bbdf05aa6398f96467d6">&#9670;&nbsp;</a></span>traite_progression()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void traite_progression </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Traite l'instruction progression. </p>
+<p>Récupère le nom de la commande, la spécialité et le nombre d'heures à ajouter à son avancement.</p>
+<p>Affiche le nombre d'heure réalisée pour une spécialité d'une commande en particulier. </p>
+<div class="fragment"><div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;{</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    <a class="code" href="sprint2_2source_8c.html#af8be197325db4cbd1381f62c48451313">Mot</a> nom_commande, nom_specialite;</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160; </div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    <a class="code" href="sprint2_2source_8c.html#a7cf052952ea673234ecfaefb0bee8e8b">get_id</a>(nom_commande);</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    <a class="code" href="sprint2_2source_8c.html#a7cf052952ea673234ecfaefb0bee8e8b">get_id</a>(nom_specialite);</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160; </div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    <span class="keywordtype">int</span> nombre_heures = <a class="code" href="sprint2_2source_8c.html#a292781868f4c4b971b71dbf1122c507d">get_int</a>();</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160; </div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;    printf(<a class="code" href="sprint2_2source_8c.html#a530d80f62801a03bb158d27bfa0872a8">MSG_PROGRESSION</a>, nom_commande, nom_specialite, nombre_heures);</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a50e4e344d3ab62fdf8afc923b75a1305"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50e4e344d3ab62fdf8afc923b75a1305">&#9670;&nbsp;</a></span>traite_specialites()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void traite_specialites </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_specialites.html">Specialites</a> *&#160;</td>
+          <td class="paramname"><em>specialites</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Traite l'instruction spécialites. </p>
+<p>Affiche la liste de toutes les specialités existantes.</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">specialites</td><td>Pointeur sur le tableau contenant toutes les spécialités. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;{</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;    printf(<a class="code" href="sprint2_2source_8c.html#a1316d57600e8237c16c2574a331c5d8a">MSG_SPECIALITES</a>);</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160; </div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 0; i &lt; specialites-&gt;<a class="code" href="struct_specialites.html#a63455ee245a5976aa1412d897c7bc2c5">nb_specialites</a>; ++i)</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;    {</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;        printf(<span class="stringliteral">&quot;%s/%d&quot;</span>, specialites-&gt;<a class="code" href="struct_specialites.html#a65488e9ff8cd2b63971b3cb37ffe9fb2">tab_specialites</a>[i].<a class="code" href="struct_specialite.html#af188cb867a2e2798ce79f074aec0828a">nom</a>, specialites-&gt;<a class="code" href="struct_specialites.html#a65488e9ff8cd2b63971b3cb37ffe9fb2">tab_specialites</a>[i].<a class="code" href="struct_specialite.html#ac8c16e586fade9fec4386e9c802bedf1">cout_horaire</a>);</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160; </div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;        <span class="keywordflow">if</span> (i &lt; specialites-&gt;nb_specialites - 1)</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;        {</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;            printf(<span class="stringliteral">&quot;, &quot;</span>);</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;        }</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;    }</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160; </div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;    printf(<span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a6936fc65394c020e3903f8658666125d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6936fc65394c020e3903f8658666125d">&#9670;&nbsp;</a></span>traite_supervision()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void traite_supervision </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Traite l'instruction supervision. </p>
+<p>Affiche la progression de toutes les commandes. </p>
+<div class="fragment"><div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;{</div>
+<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;    printf(<a class="code" href="sprint2_2source_8c.html#ac89530cfac6aea14f554db22f317550b">MSG_SUPERVISION</a>);</div>
+<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a00878a6e62a5121b3b90c4144d7fbd8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00878a6e62a5121b3b90c4144d7fbd8f">&#9670;&nbsp;</a></span>traite_tache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void traite_tache </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Traite l'instruction tache. </p>
+<p>Récupère le nom de la commande, sa spécialité et le nombre d'heures pour effectuer la tache.</p>
+<p>Affiche la commande, la spécialité associée et le nombre d'heures nécessaires pour effectuer la tâche de la spécialité. </p>
+<div class="fragment"><div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;{</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;    <a class="code" href="sprint2_2source_8c.html#af8be197325db4cbd1381f62c48451313">Mot</a> nom_specialite, nom_commande;</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160; </div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    <a class="code" href="sprint2_2source_8c.html#a7cf052952ea673234ecfaefb0bee8e8b">get_id</a>(nom_commande);</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;    <a class="code" href="sprint2_2source_8c.html#a7cf052952ea673234ecfaefb0bee8e8b">get_id</a>(nom_specialite);</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    <span class="keywordtype">int</span> nombre_heures = <a class="code" href="sprint2_2source_8c.html#a292781868f4c4b971b71dbf1122c507d">get_int</a>();</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160; </div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    printf(<a class="code" href="sprint2_2source_8c.html#a1b132affb50ef0416ab7bfd890e33ce4">MSG_TACHE</a>, nom_commande, nom_specialite, nombre_heures);</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="abb3690e3edcb8ebde7eb9de10ab32043"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb3690e3edcb8ebde7eb9de10ab32043">&#9670;&nbsp;</a></span>traite_travailleurs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void traite_travailleurs </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_specialites.html">Specialites</a> *&#160;</td>
+          <td class="paramname"><em>specialites</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_travailleurs.html">Travailleurs</a> *&#160;</td>
+          <td class="paramname"><em>travailleurs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Traite l'instruction travailleurs. </p>
+<p>Récupère la spécialité pour lequel afficher ses travailleurs, ou "tous" pour toutes les spécialités.</p>
+<p>Affiche la liste de tous les travailleurs existants ou tous les travailleurs d'une specialité en particulier.</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">specialites</td><td>Pointeur sur un tableau contenant toutes les spécialités. </td></tr>
+    <tr><td class="paramname">travailleurs</td><td>Pointeur sur un tableau contenant tous les travailleurs. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;{</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;    <a class="code" href="sprint2_2source_8c.html#af8be197325db4cbd1381f62c48451313">Mot</a> nom_specialite;</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;    <a class="code" href="sprint2_2source_8c.html#a7cf052952ea673234ecfaefb0bee8e8b">get_id</a>(nom_specialite);</div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160; </div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;    <span class="keywordflow">if</span> (strcmp(nom_specialite, <span class="stringliteral">&quot;tous&quot;</span>) == 0) <span class="comment">// Pour toutes les spécialités</span></div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;    {</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> indice = 0; indice &lt; specialites-&gt;<a class="code" href="struct_specialites.html#a63455ee245a5976aa1412d897c7bc2c5">nb_specialites</a>; ++indice)</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;        {</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;            <a class="code" href="struct_travailleurs.html">Travailleurs</a> specialistes;</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;            <a class="code" href="sprint2_2source_8c.html#a9409cec76160cad06ce68631cd683ac7">get_travailleurs</a>(specialites, travailleurs, indice, &amp;specialistes); <span class="comment">// Remplit le tableau avec les travailleurs possédant la spécialité en question</span></div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;            <a class="code" href="sprint2_2source_8c.html#a7768888cbe3ea40d26ad7c6d34b8da94">print_travailleurs</a>(&amp;specialistes, &amp;specialites-&gt;<a class="code" href="struct_specialites.html#a65488e9ff8cd2b63971b3cb37ffe9fb2">tab_specialites</a>[indice].<a class="code" href="struct_specialite.html#af188cb867a2e2798ce79f074aec0828a">nom</a>); <span class="comment">// Affiche les travailleurs possédant la spécialité en question</span></div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;        }</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;    }</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;    {</div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;        <a class="code" href="struct_travailleurs.html">Travailleurs</a> specialistes;</div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;        <a class="code" href="sprint2_2source_8c.html#a9409cec76160cad06ce68631cd683ac7">get_travailleurs</a>(specialites, travailleurs, <a class="code" href="sprint2_2source_8c.html#ac1f214c8f89f8e41687cd93f82dbbda9">get_indice</a>(specialites, &amp;nom_specialite), &amp;specialistes); <span class="comment">// Remplit le tableau avec les travailleurs possédant la spécialité en question</span></div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;        <a class="code" href="sprint2_2source_8c.html#a7768888cbe3ea40d26ad7c6d34b8da94">print_travailleurs</a>(&amp;specialistes, &amp;nom_specialite); <span class="comment">// Affiche les travailleurs possédant la spécialité en question</span></div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;    }</div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div class="ttc" id="asprint2_2source_8c_html_a1316d57600e8237c16c2574a331c5d8a"><div class="ttname"><a href="sprint2_2source_8c.html#a1316d57600e8237c16c2574a331c5d8a">MSG_SPECIALITES</a></div><div class="ttdeci">#define MSG_SPECIALITES</div><div class="ttdoc">Sortie de l'instruction specialites.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:26</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a426c0d223e7dc6b87d723c4c0c0e1f58a1bb75a30f93b418be2d44aa0eafe9be3"><div class="ttname"><a href="sprint2_2source_8c.html#a426c0d223e7dc6b87d723c4c0c0e1f58a1bb75a30f93b418be2d44aa0eafe9be3">FAUX</a></div><div class="ttdeci">@ FAUX</div><div class="ttdoc">Valeur fausse.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:39</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a87ecbe5ade53bc7b222dbd0687cef7aa"><div class="ttname"><a href="sprint2_2source_8c.html#a87ecbe5ade53bc7b222dbd0687cef7aa">MSG_COMMANDE</a></div><div class="ttdeci">#define MSG_COMMANDE</div><div class="ttdoc">Sortie de l'instruction commande.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:22</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_ac1f214c8f89f8e41687cd93f82dbbda9"><div class="ttname"><a href="sprint2_2source_8c.html#ac1f214c8f89f8e41687cd93f82dbbda9">get_indice</a></div><div class="ttdeci">unsigned int get_indice(const Specialites *specialites, const Mot *nom_specialite)</div><div class="ttdoc">Récupérer l'indice d'une spécialité dans le tableau contenant les spécialités.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:549</div></div>
+<div class="ttc" id="astruct_specialite_html"><div class="ttname"><a href="struct_specialite.html">Specialite</a></div><div class="ttdoc">Structure représentant une spécialité.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:60</div></div>
+<div class="ttc" id="astruct_travailleurs_html_ab92b0b3c894b8899b01765cd58dae5ba"><div class="ttname"><a href="struct_travailleurs.html#ab92b0b3c894b8899b01765cd58dae5ba">Travailleurs::nb_travailleurs</a></div><div class="ttdeci">unsigned int nb_travailleurs</div><div class="ttdoc">Nombre de travailleur embauché</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:94</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_ae820b30c75453da57fd1cbf35a98e917"><div class="ttname"><a href="sprint2_2source_8c.html#ae820b30c75453da57fd1cbf35a98e917">MSG_CHARGE</a></div><div class="ttdeci">#define MSG_CHARGE</div><div class="ttdoc">Sortie de l'instruction charge.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:31</div></div>
+<div class="ttc" id="astruct_specialite_html_af188cb867a2e2798ce79f074aec0828a"><div class="ttname"><a href="struct_specialite.html#af188cb867a2e2798ce79f074aec0828a">Specialite::nom</a></div><div class="ttdeci">Mot nom</div><div class="ttdoc">Nom de la specialité</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:61</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a49abdf2729844bf713b51215f8d06873"><div class="ttname"><a href="sprint2_2source_8c.html#a49abdf2729844bf713b51215f8d06873">LGMOT</a></div><div class="ttdeci">#define LGMOT</div><div class="ttdoc">La taille maximale d'un mot.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:45</div></div>
+<div class="ttc" id="astruct_travailleur_html_af188cb867a2e2798ce79f074aec0828a"><div class="ttname"><a href="struct_travailleur.html#af188cb867a2e2798ce79f074aec0828a">Travailleur::nom</a></div><div class="ttdeci">Mot nom</div><div class="ttdoc">Nom du travailleur.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:82</div></div>
+<div class="ttc" id="astruct_travailleurs_html"><div class="ttname"><a href="struct_travailleurs.html">Travailleurs</a></div><div class="ttdoc">Structure représentant tous les travailleurs.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:92</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_aee937785b308081c406a0578b5001147"><div class="ttname"><a href="sprint2_2source_8c.html#aee937785b308081c406a0578b5001147">traite_client</a></div><div class="ttdeci">void traite_client(const Clients *clients)</div><div class="ttdoc">Traite l'instruction client.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:471</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a5de58af62798bbdf05aa6398f96467d6"><div class="ttname"><a href="sprint2_2source_8c.html#a5de58af62798bbdf05aa6398f96467d6">traite_progression</a></div><div class="ttdeci">void traite_progression()</div><div class="ttdoc">Traite l'instruction progression.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:367</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a426c0d223e7dc6b87d723c4c0c0e1f58a763723ffe7a348ad0f5c1b58a331b523"><div class="ttname"><a href="sprint2_2source_8c.html#a426c0d223e7dc6b87d723c4c0c0e1f58a763723ffe7a348ad0f5c1b58a331b523">VRAI</a></div><div class="ttdeci">@ VRAI</div><div class="ttdoc">Valeur vraie.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:40</div></div>
+<div class="ttc" id="astruct_specialites_html"><div class="ttname"><a href="struct_specialites.html">Specialites</a></div><div class="ttdoc">Structure représentant toutes les specialites.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:71</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a9c54f6e57506ee38abe9848c9ecc9866"><div class="ttname"><a href="sprint2_2source_8c.html#a9c54f6e57506ee38abe9848c9ecc9866">traite_demarche</a></div><div class="ttdeci">void traite_demarche(Clients *clients)</div><div class="ttdoc">Traite l'instruction demarche.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:307</div></div>
+<div class="ttc" id="astruct_specialite_html_ac8c16e586fade9fec4386e9c802bedf1"><div class="ttname"><a href="struct_specialite.html#ac8c16e586fade9fec4386e9c802bedf1">Specialite::cout_horaire</a></div><div class="ttdeci">int cout_horaire</div><div class="ttdoc">Coût horaire de la spécialité</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:62</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a00878a6e62a5121b3b90c4144d7fbd8f"><div class="ttname"><a href="sprint2_2source_8c.html#a00878a6e62a5121b3b90c4144d7fbd8f">traite_tache</a></div><div class="ttdeci">void traite_tache()</div><div class="ttdoc">Traite l'instruction tache.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:345</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a426c0d223e7dc6b87d723c4c0c0e1f58"><div class="ttname"><a href="sprint2_2source_8c.html#a426c0d223e7dc6b87d723c4c0c0e1f58">Booleen</a></div><div class="ttdeci">Booleen</div><div class="ttdoc">Type pour les booléens.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:38</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a9409cec76160cad06ce68631cd683ac7"><div class="ttname"><a href="sprint2_2source_8c.html#a9409cec76160cad06ce68631cd683ac7">get_travailleurs</a></div><div class="ttdeci">void get_travailleurs(const Specialites *specialites, const Travailleurs *travailleurs, unsigned int indice, Travailleurs *specialistes)</div><div class="ttdoc">Récupérer les travailleurs d'une spécialité en particulier.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:579</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a3f1285d5bcfccbd5294a9dd79ea336c2"><div class="ttname"><a href="sprint2_2source_8c.html#a3f1285d5bcfccbd5294a9dd79ea336c2">MSG_PASSE</a></div><div class="ttdeci">#define MSG_PASSE</div><div class="ttdoc">Sortie de l'instruction passe.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:25</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_af96fb2885eb567b1d4e18bf153c70666"><div class="ttname"><a href="sprint2_2source_8c.html#af96fb2885eb567b1d4e18bf153c70666">MSG_INTERRUPTION</a></div><div class="ttdeci">#define MSG_INTERRUPTION</div><div class="ttdoc">Sortie de l'instruction interruption.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:32</div></div>
+<div class="ttc" id="astruct_travailleurs_html_a78031783d99daeabeec73c4f1f36a248"><div class="ttname"><a href="struct_travailleurs.html#a78031783d99daeabeec73c4f1f36a248">Travailleurs::tab_travailleurs</a></div><div class="ttdeci">Travailleur tab_travailleurs[MAX_TRAVAILLEURS]</div><div class="ttdoc">Tableau contenant tous les travailleurs.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:93</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_ac89530cfac6aea14f554db22f317550b"><div class="ttname"><a href="sprint2_2source_8c.html#ac89530cfac6aea14f554db22f317550b">MSG_SUPERVISION</a></div><div class="ttdeci">#define MSG_SUPERVISION</div><div class="ttdoc">Sortie de l'instruction superivision.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:30</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a40d76ced55c767cfe5654bfe866ff0de"><div class="ttname"><a href="sprint2_2source_8c.html#a40d76ced55c767cfe5654bfe866ff0de">MSG_CLIENT</a></div><div class="ttdeci">#define MSG_CLIENT</div><div class="ttdoc">Sortie de l'instruction client.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:28</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a81844bb7538e692547f22c80a1bd2d5e"><div class="ttname"><a href="sprint2_2source_8c.html#a81844bb7538e692547f22c80a1bd2d5e">MSG_CLIENT_TOUS</a></div><div class="ttdeci">#define MSG_CLIENT_TOUS</div><div class="ttdoc">Sortie de l'instruction client version tous.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:29</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_ae9043ae8b79affe934dd09e80b73f764"><div class="ttname"><a href="sprint2_2source_8c.html#ae9043ae8b79affe934dd09e80b73f764">traite_commande</a></div><div class="ttdeci">void traite_commande()</div><div class="ttdoc">Traite l'instruction commande.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:324</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a292781868f4c4b971b71dbf1122c507d"><div class="ttname"><a href="sprint2_2source_8c.html#a292781868f4c4b971b71dbf1122c507d">get_int</a></div><div class="ttdeci">int get_int()</div><div class="ttdoc">Récupérer l'entrée puis le convertir en un entier.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:646</div></div>
+<div class="ttc" id="astruct_travailleur_html_a7e785917694a2fb37b99c41255904a8e"><div class="ttname"><a href="struct_travailleur.html#a7e785917694a2fb37b99c41255904a8e">Travailleur::tags_competences</a></div><div class="ttdeci">Booleen tags_competences[MAX_SPECIALITES]</div><div class="ttdoc">Tableau pour savoir dans quelle spécialité exerce le travailleur.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:83</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a65f45347fca7699f78f247022eb62618"><div class="ttname"><a href="sprint2_2source_8c.html#a65f45347fca7699f78f247022eb62618">traite_charge</a></div><div class="ttdeci">void traite_charge()</div><div class="ttdoc">Traite l'instruction charge.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:520</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_aabc024b95306b362da8228e270e0539e"><div class="ttname"><a href="sprint2_2source_8c.html#aabc024b95306b362da8228e270e0539e">traite_developpe</a></div><div class="ttdeci">void traite_developpe(Specialites *specialites)</div><div class="ttdoc">Traite l'instruction developpe.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:252</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a530d80f62801a03bb158d27bfa0872a8"><div class="ttname"><a href="sprint2_2source_8c.html#a530d80f62801a03bb158d27bfa0872a8">MSG_PROGRESSION</a></div><div class="ttdeci">#define MSG_PROGRESSION</div><div class="ttdoc">Sortie de l'instruction progression.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:24</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a2dfc4ed3e6be488749daed9f6e9f8926"><div class="ttname"><a href="sprint2_2source_8c.html#a2dfc4ed3e6be488749daed9f6e9f8926">traite_interruption</a></div><div class="ttdeci">void traite_interruption()</div><div class="ttdoc">Traite l'instruction interruption.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:534</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_aaddca6ec1e8ccca8e684ab25f6590342"><div class="ttname"><a href="sprint2_2source_8c.html#aaddca6ec1e8ccca8e684ab25f6590342">traite_embauche</a></div><div class="ttdeci">void traite_embauche(const Specialites *specialites, Travailleurs *travailleurs)</div><div class="ttdoc">Traite l'instruction embauche.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:281</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a7cf052952ea673234ecfaefb0bee8e8b"><div class="ttname"><a href="sprint2_2source_8c.html#a7cf052952ea673234ecfaefb0bee8e8b">get_id</a></div><div class="ttdeci">void get_id(Mot id)</div><div class="ttdoc">Récupérer les entrées de l'utilisateur.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:629</div></div>
+<div class="ttc" id="astruct_travailleur_html"><div class="ttname"><a href="struct_travailleur.html">Travailleur</a></div><div class="ttdoc">Structure représentant un travailleur.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:81</div></div>
+<div class="ttc" id="astruct_clients_html_a0295cd08b1355acf83b57ea510e8f844"><div class="ttname"><a href="struct_clients.html#a0295cd08b1355acf83b57ea510e8f844">Clients::tab_clients</a></div><div class="ttdeci">Mot tab_clients[MAX_CLIENTS]</div><div class="ttdoc">Tableau contenant tous les clients.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:103</div></div>
+<div class="ttc" id="astruct_clients_html_ab1dea18338d437a3a56a48e94a6cd365"><div class="ttname"><a href="struct_clients.html#ab1dea18338d437a3a56a48e94a6cd365">Clients::nb_clients</a></div><div class="ttdeci">unsigned int nb_clients</div><div class="ttdoc">Nombre de client.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:104</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a2a8c59dc869c40ec68c9e08f465fd876"><div class="ttname"><a href="sprint2_2source_8c.html#a2a8c59dc869c40ec68c9e08f465fd876">traite_passe</a></div><div class="ttdeci">void traite_passe()</div><div class="ttdoc">Traite l'instruction passe.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:385</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a7768888cbe3ea40d26ad7c6d34b8da94"><div class="ttname"><a href="sprint2_2source_8c.html#a7768888cbe3ea40d26ad7c6d34b8da94">print_travailleurs</a></div><div class="ttdeci">void print_travailleurs(const Travailleurs *travailleurs, const Mot *nom_specialite)</div><div class="ttdoc">Afficher tous les travailleurs contenu dans un tableau.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:606</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a9d2cde40957e22754ed67a5e9cdcc8ee"><div class="ttname"><a href="sprint2_2source_8c.html#a9d2cde40957e22754ed67a5e9cdcc8ee">EchoActif</a></div><div class="ttdeci">Booleen EchoActif</div><div class="ttdoc">Si vrai, l'echo est actif.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:43</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_aeb3bf7cb68f1f9cb159689d7f53434a0"><div class="ttname"><a href="sprint2_2source_8c.html#aeb3bf7cb68f1f9cb159689d7f53434a0">NBCHIFFREMAX</a></div><div class="ttdeci">#define NBCHIFFREMAX</div><div class="ttdoc">La taille maximale d'un chiffre.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:46</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_af8be197325db4cbd1381f62c48451313"><div class="ttname"><a href="sprint2_2source_8c.html#af8be197325db4cbd1381f62c48451313">Mot</a></div><div class="ttdeci">char Mot[LGMOT+1]</div><div class="ttdoc">Contient les entrées de l'utilisateur.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:47</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a6936fc65394c020e3903f8658666125d"><div class="ttname"><a href="sprint2_2source_8c.html#a6936fc65394c020e3903f8658666125d">traite_supervision</a></div><div class="ttdeci">void traite_supervision()</div><div class="ttdoc">Traite l'instruction supervision.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:505</div></div>
+<div class="ttc" id="astruct_specialites_html_a65488e9ff8cd2b63971b3cb37ffe9fb2"><div class="ttname"><a href="struct_specialites.html#a65488e9ff8cd2b63971b3cb37ffe9fb2">Specialites::tab_specialites</a></div><div class="ttdeci">Specialite tab_specialites[MAX_SPECIALITES]</div><div class="ttdoc">Tableau contenant toutes les spécialités.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:72</div></div>
+<div class="ttc" id="astruct_clients_html"><div class="ttname"><a href="struct_clients.html">Clients</a></div><div class="ttdoc">Structure représentant un client.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:102</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_abb3690e3edcb8ebde7eb9de10ab32043"><div class="ttname"><a href="sprint2_2source_8c.html#abb3690e3edcb8ebde7eb9de10ab32043">traite_travailleurs</a></div><div class="ttdeci">void traite_travailleurs(const Specialites *specialites, const Travailleurs *travailleurs)</div><div class="ttdoc">Traite l'instruction travailleurs.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:434</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a50e4e344d3ab62fdf8afc923b75a1305"><div class="ttname"><a href="sprint2_2source_8c.html#a50e4e344d3ab62fdf8afc923b75a1305">traite_specialites</a></div><div class="ttdeci">void traite_specialites(const Specialites *specialites)</div><div class="ttdoc">Traite l'instruction spécialites.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:400</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_a1b132affb50ef0416ab7bfd890e33ce4"><div class="ttname"><a href="sprint2_2source_8c.html#a1b132affb50ef0416ab7bfd890e33ce4">MSG_TACHE</a></div><div class="ttdeci">#define MSG_TACHE</div><div class="ttdoc">Sortie de l'instruction tache.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:23</div></div>
+<div class="ttc" id="asprint2_2source_8c_html_ae82eeacd13d29b1b0d6e04688cad60ca"><div class="ttname"><a href="sprint2_2source_8c.html#ae82eeacd13d29b1b0d6e04688cad60ca">MSG_TRAVAILLEURS</a></div><div class="ttdeci">#define MSG_TRAVAILLEURS</div><div class="ttdoc">Sortie de l'instruction travailleurs.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:27</div></div>
+<div class="ttc" id="astruct_specialites_html_a63455ee245a5976aa1412d897c7bc2c5"><div class="ttname"><a href="struct_specialites.html#a63455ee245a5976aa1412d897c7bc2c5">Specialites::nb_specialites</a></div><div class="ttdeci">unsigned int nb_specialites</div><div class="ttdoc">Nombre de spécialité developpée.</div><div class="ttdef"><b>Definition:</b> sprint2/source.c:73</div></div>
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_526c2a8cd2919d2df59768252fad3240.html">sprint2</a></li><li class="navelem"><a class="el" href="sprint2_2source_8c.html">source.c</a></li>
+    <li class="footer">Généré par <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+  </ul>
+</div>
+</body>
+</html>
